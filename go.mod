@@ -1,12 +1,12 @@
 module github.com/matheusd/dcr-split-ticket-matcher
 
 require (
-	github.com/dchest/blake256 v1.0.0
 	github.com/decred/dcrd/blockchain v1.0.2
 	github.com/decred/dcrd/blockchain/stake v1.0.2
 	github.com/decred/dcrd/certgen v1.0.1
 	github.com/decred/dcrd/chaincfg v1.1.1
 	github.com/decred/dcrd/chaincfg/chainhash v1.0.1
+	github.com/decred/dcrd/crypto/blake256 v1.0.0
 	github.com/decred/dcrd/database v1.0.2 // indirect
 	github.com/decred/dcrd/dcrec v0.0.0-20180816212643-20eda7ec9229
 	github.com/decred/dcrd/dcrec/edwards v0.0.0-20180816212643-20eda7ec9229 // indirect
