@@ -1,7 +1,6 @@
 module github.com/matheusd/dcr-split-ticket-matcher
 
 require (
-	github.com/btcsuite/go-flags v0.0.0-20150116065318-6c288d648c1c
 	github.com/dchest/blake256 v1.0.0
 	github.com/decred/dcrd/blockchain v1.0.2
 	github.com/decred/dcrd/blockchain/stake v1.0.2
@@ -40,7 +39,4 @@ require (
 	google.golang.org/grpc v1.14.0
 )
 
-replace (
-	github.com/btcsuite/goleveldb => github.com/matheusd/goleveldb v0.0.0-20190901102927-255f9b4fc43c
-	github.com/jessevdk/go-flags => github.com/jessevdk/go-flags v0.0.0-20182309103615-bf79fbdd4000
-)
+go 1.12

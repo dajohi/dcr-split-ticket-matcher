@@ -8,8 +8,7 @@ import (
 
 	"github.com/matheusd/dcr-split-ticket-matcher/pkg/internal/util"
 	"github.com/matheusd/dcr-split-ticket-matcher/pkg/splitticket"
-
-	flags "github.com/btcsuite/go-flags"
+	flags "github.com/jessevdk/go-flags"
 	"github.com/decred/dcrd/dcrutil"
 	"github.com/decred/slog"
 	"github.com/pkg/errors"

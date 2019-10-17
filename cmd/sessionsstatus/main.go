@@ -12,9 +12,8 @@ import (
 	"path"
 	"strings"
 
-	flags "github.com/btcsuite/go-flags"
+	flags "github.com/jessevdk/go-flags"
 	"github.com/decred/dcrd/blockchain/stake"
-
 	"github.com/decred/dcrd/chaincfg"
 	"github.com/decred/dcrd/chaincfg/chainhash"
 	"github.com/decred/dcrd/dcrutil"
