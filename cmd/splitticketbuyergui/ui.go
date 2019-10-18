@@ -358,6 +358,9 @@ func buildUI() gtk.IWidget {
 
 	// log area
 
+	tagMap := make(map[string]interface{})
+	tagMap["foreground"] = "gray"
+
 	swin := gtk.NewScrolledWindow(nil, nil)
 	swin.SetPolicy(gtk.POLICY_AUTOMATIC, gtk.POLICY_AUTOMATIC)
 	swin.SetShadowType(gtk.SHADOW_IN)
@@ -370,7 +373,7 @@ func buildUI() gtk.IWidget {
 	buffer.Insert(&start, "Waiting to participate in session")
 	buffer.GetEndIter(&end)
 	buffer.InsertAtCursor("\n")
-	tag := buffer.CreateTag("bold", map[string]string{"foreground": "gray"})
+	tag := buffer.CreateTag("bold", tagMap)
 	buffer.GetStartIter(&start)
 	buffer.GetEndIter(&end)
 	buffer.ApplyTag(tag, &start, &end)
