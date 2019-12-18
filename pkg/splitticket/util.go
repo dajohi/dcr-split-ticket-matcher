@@ -12,7 +12,7 @@ import (
 	"github.com/decred/dcrd/rpcclient"
 	"github.com/decred/dcrd/txscript"
 	"github.com/decred/dcrd/wire"
-	dcrdatatypes "github.com/decred/dcrdata/api/types"
+	dcrdatatypes "github.com/decred/dcrdata/api/types/v5"
 	"github.com/pkg/errors"
 )
 

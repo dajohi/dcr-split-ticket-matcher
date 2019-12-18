@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"github.com/decred/dcrd/chaincfg"
 	"github.com/decred/dcrd/wire"
-	dcrdatatypes "github.com/decred/dcrdata/api/types"
+	dcrdatatypes "github.com/decred/dcrdata/api/types/v5"
 	"github.com/matheusd/dcr-split-ticket-matcher/pkg/splitticket"
 	"github.com/pkg/errors"
 	"net/http"
