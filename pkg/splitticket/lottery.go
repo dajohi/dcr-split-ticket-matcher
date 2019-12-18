@@ -9,8 +9,8 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/decred/dcrd/crypto/blake256"
 	"github.com/decred/dcrd/chaincfg/chainhash"
+	"github.com/decred/dcrd/crypto/blake256"
 	"github.com/decred/dcrd/dcrutil"
 )
 
